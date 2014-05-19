@@ -5,7 +5,7 @@ $(function () {
                     height: "400px",
                     dataSource: data,
                     legend: hasLegend ? { element: "radialLegend" } : null,
-                    title: "ニューヨーク市 vs. フィラデルフィア",
+                    title: "ニューヨーク vs. フィラデルフィア",
                     subtitle: "気温の比較",
                     axes: [{
                         name: "angleAxis",
