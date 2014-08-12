@@ -18,7 +18,7 @@ $(function () {
 
         function createAutoGrid()
         {
-            $( "#autoLoadOnDemand" ).igGrid( {
+            $( "#autoAppendRowsOnDemand" ).igGrid( {
                 width: "100%",
                 autoGenerateColumns: false,
                 dataSource: infragisticsTweets,
@@ -37,7 +37,7 @@ $(function () {
                 ],
                 features: [
                     {
-                        name: 'LoadOnDemand',
+                        name: 'AppendRowsOnDemand',
                         chunkSize: 10,
                         loadTrigger: "auto"
                     }
@@ -47,7 +47,7 @@ $(function () {
 
         function createButtonGrid()
         {
-            $( "#buttonLoadOnDemand" ).igGrid( {
+            $( "#buttonAppendRowsOnDemand" ).igGrid( {
                 width: "100%",
                 autoGenerateColumns: false,
                 dataSource: infragisticsTweets,
@@ -66,7 +66,7 @@ $(function () {
                 ],
                 features: [
                     {
-                        name: 'LoadOnDemand',
+                        name: 'AppendRowsOnDemand',
                         chunkSize: 10,
                         loadTrigger: "button"
                     }
