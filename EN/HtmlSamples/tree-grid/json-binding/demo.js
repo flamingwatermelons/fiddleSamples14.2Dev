@@ -71,7 +71,7 @@ $(function () {
                 ],
                 // tree grid specific options
                 key: "EmployeeID",
-                parentKey: "PID",
+                foreignKey: "PID",
                 dataSourceLayoutKey: "PID",
                 hierarchicalDataSource: false,
                 initialExpandDepth: 1,
