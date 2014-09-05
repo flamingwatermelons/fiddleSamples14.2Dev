@@ -75,7 +75,7 @@ $(function () {
                 dataSourceLayoutKey: "PID",
                 hierarchicalDataSource: false,
                 initialExpandDepth: 1,
-                renderExpandColumn: true
+                renderExpandColumn: false
             });
 
 
@@ -94,6 +94,6 @@ $(function () {
                 ],
                 dataSourceLayoutKey: "products",
                 initialExpandDepth: 1,
-                renderExpandColumn: false
+                renderExpandColumn: true
             });
-        });
+            });

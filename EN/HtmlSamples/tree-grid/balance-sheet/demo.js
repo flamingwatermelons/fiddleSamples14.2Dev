@@ -56,8 +56,6 @@ $(function () {
                 ],
                 // tree grid specific options
                 dataSourceLayoutKey: "assets",
-                renderExpandColumn: true,
-
                 initialExpandDepth: 3,
                 features: [
                     {
