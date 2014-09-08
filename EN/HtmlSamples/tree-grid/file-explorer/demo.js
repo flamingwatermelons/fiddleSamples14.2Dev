@@ -61,7 +61,7 @@ $(function () {
                         },
                         {
                             "name": "Stephen King", "dateModified": "3/10/2014", "type": "File Folder", "size": "65148", "files": [
-                                { "name": "It.pd", "dateModified": "3/10/2014", "type": "Adobe Acrobat Document", "size": "9987" },
+                                { "name": "It.pdf", "dateModified": "3/10/2014", "type": "Adobe Acrobat Document", "size": "9987" },
                                 { "name": "Misery.pdf", "dateModified": "3/10/2014", "type": "Adobe Acrobat Document", "size": "32313" },
                                 { "name": "Pet Sematary.pdf", "dateModified": "3/10/2014", "type": "Adobe Acrobat Document", "size": "22848" }
                             ]
