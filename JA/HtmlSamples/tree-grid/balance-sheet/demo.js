@@ -2,7 +2,7 @@ $(function () {
 
             var dataSource = [
                 {
-                    "number": "1000", "name": "assets", "balance": "", "assets": [
+                    "number": "1000", "name": "Assets", "balance": "", "assets": [
                         {
                             "number": "1003", "name": "Fixed assets", "balance": "", "assets": [
                                 {
@@ -56,7 +56,7 @@ $(function () {
                 ],
                 // tree grid specific options
                 dataSourceLayoutKey: "assets",
-                initialExpandDepth: 3,
+                initialExpandDepth: 2,
                 features: [
                     {
                         name: "Updating",
