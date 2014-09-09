@@ -64,10 +64,10 @@ $(function () {
                 autoGenerateColumns: false,
                 primaryKey: "employeeID",
                 columns: [
-                    { headerText: "Employee ID", key: "employeeId", width: "200px", dataType: "number" },
-                    { headerText: "First Name", key: "firstName", width: "220px", dataType: "string" },
-                    { headerText: "Last Name", key: "lastName", width: "220px", dataType: "string" },
-                    { headerText: "Reports To", key: "reportsTo", width: "130px", dataType: "number" }
+                    { headerText: "従業員 ID", key: "employeeId", width: "200px", dataType: "number" },
+                    { headerText: "名前", key: "firstName", width: "220px", dataType: "string" },
+                    { headerText: "名字", key: "lastName", width: "220px", dataType: "string" },
+                    { headerText: "上司", key: "reportsTo", width: "130px", dataType: "number" }
                 ],
                 // tree grid specific options
                 key: "employeeID",
@@ -86,11 +86,11 @@ $(function () {
                 primaryKey: "Id",
                 columns: [
                     { headerText: "ID", key: "id", width: "120px", dataType: "number" },
-                    { headerText: "Tasks", key: "tasks", width: "250px", dataType: "string" },
-                    { headerText: "Start", key: "start", width: "130px", dataType: "string" },
-                    { headerText: "Finish", key: "finish", width: "130px", dataType: "string" },
-                    { headerText: "Duration", key: "duration", width: "100px", dataType: "string" },
-                    { headerText: "Progress", key: "progress", width: "130px", dataType: "string" }
+                    { headerText: "タスク", key: "tasks", width: "250px", dataType: "string" },
+                    { headerText: "開始日付", key: "start", width: "130px", dataType: "string" },
+                    { headerText: "終了日付", key: "finish", width: "130px", dataType: "string" },
+                    { headerText: "期間", key: "duration", width: "100px", dataType: "string" },
+                    { headerText: "進行状況", key: "progress", width: "130px", dataType: "string" }
                 ],
                 dataSourceLayoutKey: "products",
                 initialExpandDepth: 1,

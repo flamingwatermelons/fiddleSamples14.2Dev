@@ -50,9 +50,9 @@ $(function () {
                 autoGenerateColumns: false,
                 primaryKey: "number",
                 columns: [
-                    { headerText: "Number", key: "number", width: "250px", dataType: "number" },
-                    { headerText: "Name", key: "name", width: "250px", dataType: "string" },
-                    { headerText: "Balance", key: "balance", width: "100px", dataType: "string" }
+                    { headerText: "番号", key: "number", width: "250px", dataType: "number" },
+                    { headerText: "名前", key: "name", width: "250px", dataType: "string" },
+                    { headerText: "バランス", key: "balance", width: "100px", dataType: "string" }
                 ],
                 // tree grid specific options
                 dataSourceLayoutKey: "assets",

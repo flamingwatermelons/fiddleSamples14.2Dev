@@ -94,10 +94,10 @@ $(function () {
                 autoGenerateColumns: false,
                 primaryKey: "name",
                 columns: [
-                    { headerText: "Name", key: "name", width: "250px", dataType: "string" },
-                    { headerText: "Date Modified", key: "dateModified", width: "130px", dataType: "date"},
-                    { headerText: "Type", key: "type", width: "230px", dataType: "string" },
-                    { headerText: "Size in KB", key: "size", width: "130px", dataType: "number" }
+                    { headerText: "名前", key: "name", width: "250px", dataType: "string" },
+                    { headerText: "変更日時", key: "dateModified", width: "130px", dataType: "date"},
+                    { headerText: "タイプ", key: "type", width: "230px", dataType: "string" },
+                    { headerText: "サイズ (KB)", key: "size", width: "130px", dataType: "number" }
                 ],
                 dataSourceLayoutKey: "files",
                 initialExpandDepth: 2,
