@@ -318,6 +318,7 @@ $.ig.loader({
                 };
 
                 function finalize() {
+                    var argumentSeparator = (1.2).toLocaleString().charAt(1) === ',' ? ';' : ',';
                     var dataEndRowIndex = xlRowIndex - 1;
 
                     // Export all summary cells with their appropriate formulas
@@ -366,7 +367,7 @@ $.ig.loader({
 
                             if (summaryType) {
                                 var xlRow = worksheet.rows(xlRowIndex + summaryIndex);
-                                xlRow.applyCellFormula(columnIndex, "=SUBTOTAL(" + summaryType + "," + columnReference + ")");
+                                xlRow.applyCellFormula(columnIndex, "=SUBTOTAL(" + summaryType + argumentSeparator + columnReference + ")");
                                 xlRow.getCellFormat(columnIndex).formatString(formatString);
                             }
                         }
