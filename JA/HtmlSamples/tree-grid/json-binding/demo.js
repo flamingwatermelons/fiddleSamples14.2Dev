@@ -64,7 +64,7 @@ $(function () {
                 autoGenerateColumns: false,
                 primaryKey: "employeeID",
                 columns: [
-                    { headerText: "従業員 ID", key: "employeeId", width: "200px", dataType: "number" },
+                    { headerText: "従業員 ID", key: "employeeID", width: "200px", dataType: "number" },
                     { headerText: "名前", key: "firstName", width: "220px", dataType: "string" },
                     { headerText: "名字", key: "lastName", width: "220px", dataType: "string" },
                     { headerText: "上司", key: "reportsTo", width: "130px", dataType: "number" }
@@ -74,8 +74,7 @@ $(function () {
                 foreignKey: "PID",
                 dataSourceLayoutKey: "PID",
                 hierarchicalDataSource: false,
-                initialExpandDepth: 1,
-                renderExpandColumn: false
+                initialExpandDepth: 1
             });
 
 
