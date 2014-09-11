@@ -30,7 +30,7 @@ $(function () {
                         {
                             "number": "2000", "name": "Current assets", "balance": "", "assets": [
                                 {
-                                    "number": "1115", "name": "Inventory", "balance": "", "assets": [
+                                    "number": "1125", "name": "Inventory", "balance": "", "assets": [
                                         { "number": "1120", "name": "Resale Items", "balance": "$507,215.13" },
                                         { "number": "1130", "name": "Finished Goods", "balance": "$135,842.95" },
                                         { "number": "1140", "name": "Raw Material", "balance": "$497,898.10" },
@@ -54,7 +54,6 @@ $(function () {
                     { headerText: "名前", key: "name", width: "250px", dataType: "string" },
                     { headerText: "バランス", key: "balance", width: "100px", dataType: "string" }
                 ],
-                // tree grid specific options
                 dataSourceLayoutKey: "assets",
                 initialExpandDepth: 2,
                 features: [
@@ -62,6 +61,9 @@ $(function () {
                         name: "Updating",
                         enableAddRow: false
                     }
-                ]
+                ],
+                rendered: function (evt, ui) {
+                    ui.owner.element.igTreeGrid("toggleRowById", 1115);
+                }
             });
         });
