@@ -373,24 +373,24 @@ $.ig.loader({
                         }
                     }
 
-                    $status.text('Saving workbook...');
+                    $status.text("Saving workbook...");
 
                     setTimeout(function () {
                         // Finally, save the workbook and create a link so the .xlsx document can be downloaded
                         workbook.save(function (err, data) {
                             if (err) {
-                                $status.text('Error exporting: ' + getErrorMessage(err));
+                                $status.text("Error exporting: " + getErrorMessage(err));
                             }
                             else {
                                 var blob = new Blob([data], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
                                 saveAs(blob, "grid.xlsx");
-                                $status.text('Export complete');
+                                $status.text("Export complete");
                             }
                         });
                     }, 1);
                 };
 
-                $status.text('Exporting to workbook...');
+                $status.text("Exporting to workbook...");
 
                 $statusContainer.fadeIn('fast');
 
