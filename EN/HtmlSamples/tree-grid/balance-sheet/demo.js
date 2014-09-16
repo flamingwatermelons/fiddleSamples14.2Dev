@@ -56,12 +56,6 @@ $(function () {
                 ],
                 dataSourceLayoutKey: "assets",
                 initialExpandDepth: 2,
-                features: [
-                    {
-                        name: "Updating",
-                        enableAddRow: false
-                    }
-                ],
                 rendered: function (evt, ui) {
                     ui.owner.element.igTreeGrid("toggleRowById", 1115);
                 }
