@@ -3,9 +3,8 @@ $.ig.loader({
             scriptPath: "http://dev.igniteui.local/14-2/IgniteUI/js/",
             cssPath: "http://dev.igniteui.local/14-2/IgniteUI/css/",
             resources: 'modules/infragistics.util.js,' +
-                       'modules/infragistics.ext.js,' +
-                       'modules/infragistics.xml.js,' +
                        'modules/infragistics.documents.core.js,' +
+                       'modules/infragistics.xml.js,' +
                        'modules/infragistics.excel.js,' +
                        'igGrid.Summaries,' +
                        'igGrid.Sorting'
