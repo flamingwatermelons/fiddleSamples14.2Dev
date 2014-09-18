@@ -104,9 +104,6 @@ $(function () {
                 renderExpandColumn: true,
                 features: [
                 {
-                    name: "Selection"
-                },
-                {
                     name: "Hiding"
                 },
                 {
