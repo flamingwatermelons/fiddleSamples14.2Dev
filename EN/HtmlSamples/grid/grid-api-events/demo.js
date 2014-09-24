@@ -196,7 +196,8 @@ $(function () {
                     var rows = $("#grid").igGridSelection("selectedRows");
                     apiViewer.log("The number of selected rows is: " + rows.length);
                     $.each(rows, function (i, val) {
-                        apiViewer.log("Row with index " + val.index + " is selected");
+
+                        apiViewer.log("Row with id " + val.id + " is selected");
                     });
                 }
             } );
