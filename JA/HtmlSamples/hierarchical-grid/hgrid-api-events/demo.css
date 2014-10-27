@@ -1,0 +1,12 @@
+fieldset.explorer
+        {
+            float: left;
+            width: 45%;
+        }
+
+        hr
+        {
+            border-top: 1px solid #dadada;
+            border-bottom: 0px;
+             border-left: 0px;
+        }
