@@ -82,7 +82,7 @@ $(function () {
                 width: "100%",
                 dataSource: hierarchicalDS, //Project Plan data,
                 autoGenerateColumns: false,
-                primaryKey: "Id",
+                primaryKey: "id",
                 columns: [
                     { headerText: "ID", key: "id", width: "120px", dataType: "number" },
                     { headerText: "Tasks", key: "tasks", width: "250px", dataType: "string" },
